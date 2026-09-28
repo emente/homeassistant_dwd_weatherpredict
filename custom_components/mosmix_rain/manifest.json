@@ -5,8 +5,8 @@
   "config_flow": true,
   "dependencies": ["frontend", "http"],
   "documentation": "https://github.com/emente/ha_rainpredict",
-  "issue_tracker": "https://github.com/emente/ha_rainpredict/issues",
   "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/emente/ha_rainpredict/issues",
   "requirements": [],
   "version": "0.6.0"
 }
