@@ -64,14 +64,11 @@ class MosmixRainConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
     def async_get_options_flow(
         config_entry: config_entries.ConfigEntry,
     ) -> MosmixRainOptionsFlow:
-        return MosmixRainOptionsFlow(config_entry)
+        return MosmixRainOptionsFlow()
 
 
 class MosmixRainOptionsFlow(config_entries.OptionsFlow):
     """Let the user change the configured coordinates after setup."""
-
-    def __init__(self, config_entry: config_entries.ConfigEntry) -> None:
-        self.config_entry = config_entry
 
     async def async_step_init(self, user_input=None):
         errors: dict[str, str] = {}
