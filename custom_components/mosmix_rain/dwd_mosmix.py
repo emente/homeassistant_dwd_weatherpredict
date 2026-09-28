@@ -39,7 +39,7 @@ ELEMENT_NAMES = tuple(ELEMENT_KINDS)
 DWD_NS = "https://opendata.dwd.de/weather/lib/pointforecast_dwd_extension_V1_0.xsd"
 NS = {"kml": "http://www.opengis.net/kml/2.2", "dwd": DWD_NS}
 
-USER_AGENT = "ha-mosmix-rain/1.0 (+https://github.com/emente/ha_rainpredict)"
+USER_AGENT = "ha-mosmix-rain/1.0 (+https://github.com/emente/homeassistant_dwd_weatherpredict)"
 
 
 class MosmixError(Exception):

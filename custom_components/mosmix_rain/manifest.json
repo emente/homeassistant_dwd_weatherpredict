@@ -4,9 +4,9 @@
   "codeowners": ["@emente"],
   "config_flow": true,
   "dependencies": ["frontend", "http"],
-  "documentation": "https://github.com/emente/ha_rainpredict",
-  "issue_tracker": "https://github.com/emente/ha_rainpredict/issues",
+  "documentation": "https://github.com/emente/homeassistant_dwd_weatherpredict",
+  "issue_tracker": "https://github.com/emente/homeassistant_dwd_weatherpredict/issues",
   "iot_class": "cloud_polling",
   "requirements": [],
-  "version": "0.6.0"
+  "version": "0.6.1"
 }
