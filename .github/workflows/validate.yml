@@ -20,5 +20,7 @@ jobs:
       - uses: hacs/action@main
         with:
           category: integration
-          # Not listed in home-assistant/brands yet.
-          ignore: brands
+          # brands: not listed in home-assistant/brands yet.
+          # description/topics/license: repository metadata, set on GitHub
+          # (not in the code); remove from this list once they exist.
+          ignore: brands description topics license
